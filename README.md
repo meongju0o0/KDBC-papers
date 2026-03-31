@@ -1,12 +1,9 @@
-# KCC Portal Starter (React + Express + MySQL)
-
-WSL2 환경에서 실행 가능한 학회 스타일 포털 초기 프로젝트입니다.
-
+# KDBC Portal Starter (React + Express + MySQL)
 ## 구성
 
 - `frontend`: React + Vite
-- `backend`: Express + MySQL
-- `database`: MySQL 스키마 및 샘플 데이터
+- `backend`: Express
+- `database`: MySQL
 
 ## 기능
 
@@ -120,11 +117,3 @@ kcc-portal/
 ```
 
 ---
-
-## 6. 향후 확장 추천
-
-- 관리자 로그인
-- 논문/공지 CRUD
-- 파일 업로드(PDF)
-- 검색/필터/페이지네이션
-- 학회 일정/행사 안내 페이지 추가
