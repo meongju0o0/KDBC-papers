@@ -30,5 +30,11 @@ CREATE TABLE papers (
   authors VARCHAR(255) NOT NULL,
   affiliation VARCHAR(255) NOT NULL,
   abstracted_text TEXT,
-  pdf_url VARCHAR(500)
+  pdf_url VARCHAR(500),
+  INDEX idx_papers_vol_no (vol, no),
+  CONSTRAINT fk_papers_issue_vol_no
+    FOREIGN KEY (vol, no)
+    REFERENCES paper_issues (vol, no)
+    ON UPDATE CASCADE
+    ON DELETE RESTRICT
 );
