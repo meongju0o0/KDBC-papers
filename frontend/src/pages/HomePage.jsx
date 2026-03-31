@@ -156,10 +156,10 @@ export default function HomePage() {
     <div className="home-page">
       <section className="hero-section">
         <div>
-          <p className="hero-kicker">KDBC, Korea DataBase Conference</p>
-          <h1>KDBC 논문 포털</h1>
+          <p className="hero-kicker">KIISE Database Society of Korea</p>
+          <h1>데이터베이스 연구지 전자 도서관</h1>
           <p className="hero-description">
-            KDBC에 등록된 논문 목록을 확인할 수 있는 포털입니다.
+            DBR(Database Research)에 등록된 논문 목록을 확인할 수 있는 전자 도서관입니다.
           </p>
         </div>
         <div className="hero-info-box">
