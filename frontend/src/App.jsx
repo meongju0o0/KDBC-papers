@@ -65,7 +65,8 @@ export default function App() {
       <footer className="site-footer">
         <div className="footer-inner">
           <p>Copyright (c) {new Date().getFullYear()} KIISE Database Society of Korea. All rights reserved.</p>
-          <p>Created by Juyeong Shin | Licensed under MIT License</p>
+          <p>Created by Juyeong Shin, Managed by Taeyeon Kim & Juyeong Shin</p>
+          <p>Licensed under MIT License</p>
         </div>
       </footer>
     </div>

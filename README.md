@@ -1,4 +1,5 @@
 # KIISE Database Society of Korea Digital Library
+![homepage](./assets/homepage.png)
 ## 구성
 
 - `frontend`: React + Vite
