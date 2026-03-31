@@ -1,4 +1,4 @@
-# KDBC Portal Starter (React + Express + MySQL)
+# KIISE Database Society of Korea Digital Library
 ## 구성
 
 - `frontend`: React + Vite
